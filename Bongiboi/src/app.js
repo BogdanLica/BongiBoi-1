@@ -50,3 +50,10 @@ var MenuScene = cc.Scene.extend({
         this.addChild(layer);
     }
 });
+
+var GameScene = cc.Scene.extend({
+    onEnter:function(){
+        this._super();
+
+    }
+})
