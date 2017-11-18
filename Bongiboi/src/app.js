@@ -81,7 +81,3 @@ var GameScene = cc.Scene.extend({
         this.addChild(layer);
     }
 });
-<<<<<<< HEAD
-=======
-
->>>>>>> 2547a7564ec9c3ecfa4f47cad1ef8c4bd69b353f
