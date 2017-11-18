@@ -1,5 +1,25 @@
 {
-    "engine_version": "cocos2d-x-3.16", 
-    "has_native": true, 
-    "project_type": "js"
+    "engine_version": "cocos2d-x-3.16",
+    "has_native": true,
+    "project_type": "js",
+    
+    "project_type": "javascript",
+
+    "debugMode" : 1,
+    "showFPS" : true,
+    "frameRate" : 60,
+    "id" : "gameCanvas",
+    "renderMode" : 0,
+    "engineDir":"frameworks/cocos2d-html5",
+
+    "modules" : ["cocos2d"],
+
+    "jsList" : [
+        "src/resource.js",
+        "src/app.js",
+        "src/AnimationLayer.js",
+        "src/BackgroundLayer.js",
+        "src/PlayScene.js",
+        "src/StatusLayer.js"
+    ]
 }

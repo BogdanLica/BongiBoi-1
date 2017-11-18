@@ -61,7 +61,7 @@ cc.game.onStart = function(){
     cc.view.enableRetina(sys.os === sys.OS_IOS ? true : false);
 
     // Disable auto full screen on baidu and wechat, you might also want to eliminate sys.BROWSER_TYPE_MOBILE_QQ
-    if (sys.isMobile && 
+    if (sys.isMobile &&
         sys.browserType !== sys.BROWSER_TYPE_BAIDU &&
         sys.browserType !== sys.BROWSER_TYPE_WECHAT) {
         cc.view.enableAutoFullScreen(true);
@@ -74,14 +74,14 @@ cc.game.onStart = function(){
     // cc.view.setOrientation(cc.ORIENTATION_PORTRAIT);
 
     // Setup the resolution policy and design resolution size
-    cc.view.setDesignResolutionSize(960, 640, cc.ResolutionPolicy.SHOW_ALL);
+    cc.view.setDesignResolutionSize(480, 320, cc.ResolutionPolicy.SHOW_ALL);
 
     // The game will be resized when browser size change
     cc.view.resizeWithBrowserSize(true);
 
     //load resources
     cc.LoaderScene.preload(g_resources, function () {
-        cc.director.runScene(new HelloWorldScene());
+        cc.director.runScene(new MenuScene());
     }, this);
 };
 cc.game.run();
