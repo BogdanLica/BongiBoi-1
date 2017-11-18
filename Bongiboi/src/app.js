@@ -1,5 +1,4 @@
 
-
 var MenuLayer = cc.Layer.extend({
     ctor : function(){
         //1. call super class's ctor function
@@ -51,7 +50,6 @@ var MenuScene = cc.Scene.extend({
     }
 });
 
-<<<<<<< HEAD
 var GameLayer = cc.Layer.extend({
     ctor : function(){
         //1. call super class's ctor function
@@ -83,11 +81,4 @@ var GameScene = cc.Scene.extend({
         this.addChild(layer);
     }
 });
-=======
-var GameScene = cc.Scene.extend({
-    onEnter:function(){
-        this._super();
 
-    }
-})
->>>>>>> 6b7d5332c0c2c63c320166ca0e600aef5751f19e
