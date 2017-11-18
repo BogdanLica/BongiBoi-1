@@ -1,0 +1,8 @@
+//
+// Prefix header for all source files of the 'Bongiboi' target in the 'Bongiboi' project
+//
+
+#ifdef __OBJC__
+	#import <Foundation/Foundation.h>
+	#import <UIKit/UIKit.h>
+#endif
